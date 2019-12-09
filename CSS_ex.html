@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <title>CSS3 Selector Basic Page</title>
+    <style>
+    /*
+    h1{color: red;}
+    p{color: burlywood;}
+    body,p,h1,h2,h3,h4,h5,h6{margin: 0; padding: 0;}
+    */
+
+    /*
+    #header{
+        width: 800px; margin: 0 auto;
+        background: red;
+    }
+    #wrap
+    {
+        width: 800px;
+        margin: 0 auto;
+        overflow:hidden;
+    }
+    #aside{
+        width: 200px; float: left;
+        background: blue
+    }
+    #content{
+        width: 200px; float: left;
+        background: green;
+    }
+     .select{color: red;}
+     */
+    /*
+     p::first-letter{font-size: 3em;}
+     p::first-line{color:red;}
+     */
+    /*
+     p{counter-increment: rint;}
+     p::before{content: counter(rint)".";}
+     p::after{content:"-"attr(data-page)"page";}
+     p::first-letter{font-size: 3em;}
+
+     p::selection{background:black;color:red;}
+    */
+    a{text-decoration: none;}
+    a:visited{color:red;}
+    a:link::after{content: '-'attr(href);}    
+    </style>
+</head>
+<body>
+    <h1><a>Nothing</a></h1>
+    <a href="http://hanbit.co.kr">Hanbit Media</a>
+    <h1><a href="https://github.com/">github</a>"</h1>
+</body>
+</html>
